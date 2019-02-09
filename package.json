@@ -2,7 +2,7 @@
   "name": "asteroid-dodge",
   "version": "1.0.0",
   "description": "Sinple-player game",
-  "main": "p5.min.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
