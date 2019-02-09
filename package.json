@@ -1,0 +1,22 @@
+{
+  "name": "asteroid-dodge",
+  "version": "1.0.0",
+  "description": "Sinple-player game",
+  "main": "p5.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jolkku/Asteroid_Dodge.git"
+  },
+  "author": "Joel Rusi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jolkku/Asteroid_Dodge/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/Jolkku/Asteroid_Dodge#readme"
+}

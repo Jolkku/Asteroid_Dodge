@@ -2,7 +2,6 @@ let time = 0;
 let no;
 let yes;
 let ship;
-var test;
 let play_button;
 let asteroids = [];
 let dead = false;
@@ -13,10 +12,9 @@ let counter2 = 0;
 let bullets = [];
 
 function preload() {
-  no = loadImage('rsz_38483.png');
-  yes = loadImage('1rsz_38483.png');
+  no = loadImage('ship1.png');
+  yes = loadImage('ship2.png');
   play_button = loadImage('Play_Button.png');
-  test = loadImage('test.png');
 }
 
 function setup() {
@@ -38,11 +36,10 @@ function setup() {
 }
   
 function draw() {
-  background(255);
+  background(0);
   switch(stage) {
   case 0:                                                     // main menu
-  //image(play_button, width / 2, (height / 2) + 100);
-  image(test, width / 2, (height / 2) + 100);
+  image(play_button, width / 2, (height / 2) + 100);
   textSize(width / 12.8);
   fill(255);
   text('Asteroid Dodge', width / 3.9, height / 2);
@@ -328,6 +325,4 @@ function keyPressed() {
     } 
   }
 }
-
-
 
